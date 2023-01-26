@@ -1,0 +1,41 @@
+.main {
+    width: 90%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    margin: 1vh;
+
+}
+
+.main .img {
+    width: 100%;
+    height: 35%;
+}
+
+.main .img img {
+    width: 100%;
+    object-fit: cover;
+    clip-path: center;
+}
+
+.main .content {
+    background-color: rgb(255, 255, 255);
+    padding: 1vh 5vw;
+    width: 100%;
+    height: 65%;
+}
+.main .content h1{
+    font-size: 1rem;
+    padding: 0;
+}
+.main .content h2{
+    font-size: 2rem;
+    padding: 0;
+}
+.main .content .price .discount-price {
+    font-size: 1.5rem;
+}
+
+.main .content .price .default-price {
+    font-size: 0.8rem;
+}
